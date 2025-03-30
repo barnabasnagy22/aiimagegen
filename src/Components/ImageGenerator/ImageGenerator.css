@@ -31,7 +31,7 @@
 }
 
 .image img {
-    max-width: 20%;
+    width: 512px;
 }
 
 .search-box {
@@ -73,5 +73,25 @@
     cursor: pointer;
 }
 
+.loading-bar {
+    width: 0x;
+    height: 8px;
+    background: pink;
+}
 
+.loading-text {
+    font-size: 18px;
+
+}
+
+.loading-bar-full{
+    width: 512px;
+    height: 8px;
+    background: pink;
+    transition: 15s;
+}
+
+.display-none {
+    display: none;
+}
 
